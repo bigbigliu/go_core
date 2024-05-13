@@ -7,7 +7,7 @@ import "github.com/bigbigliu/go_core"
 ```
 
 ## 目录结构
-
+```txt
 |-- go-core
 ├── config
 │   ├── conf.go
@@ -49,3 +49,5 @@ import "github.com/bigbigliu/go_core"
         ├── ipFilterRedis.go
         ├── requestID.go
         └── timeout.go
+
+```
