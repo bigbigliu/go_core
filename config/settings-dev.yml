@@ -1,0 +1,25 @@
+app:
+  host: 0.0.0.0
+  port: 80
+  mode: debug
+db:
+  host: 127.0.0.1
+  port: 3306
+  user: root
+  pwd: 123456
+  name: go_core
+  max_idle_conns: 10
+  max_open_coons: 100
+redis:
+  addr: 127.0.0.1
+  port: 6379
+  pwd:
+  db: 0
+logger:
+  # 日志存放路径
+  path: ./log
+  # 日志等级
+  level: info
+jwt:
+  secret: go_core
+  timeout: 7200
